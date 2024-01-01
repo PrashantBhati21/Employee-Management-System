@@ -1,0 +1,33 @@
+body{
+    background-image: linear-gradient(to top,pink,white);
+    color:brown;
+}
+
+#header{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.flds{
+font-size: larger;
+width: 350px;
+height: 40px;
+margin: 5px;
+
+}
+
+.btn{
+width: 400px;
+height: 50px;
+background-color:greenyellow;
+border-radius: 50%;
+color:red;
+font-size: 30px;
+}
+#table{
+font-size: larger;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+}

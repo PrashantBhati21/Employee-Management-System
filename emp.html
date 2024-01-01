@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./empdesign.css">
+        <script src="./empcode.js"></script>
+    </head>
+    <body onload="init()">
+        <h1 id="header">Employee Management Program</h1><hr>
+        <div align="center">
+        <input class="flds" type="number"  id="empno" placeholder="Enter Empno here">
+        <input  class="flds" type="text"  id="empname" placeholder="Enter Emp name here">
+        <select  class="flds" id="desg">
+            <option selected>Select Designation</option>
+            <option>Manager</option>
+            <option>Prog</option>
+            <option>Analyst</option>
+            <option>Team Lead</option>
+            <option>Designer</option>
+        </select>
+        <input type="number"  class="flds"  id="salary" placeholder="Enter Salary here">
+        <input type="number"  class="flds"  id="comm" placeholder="Enter Commission here">
+        <input type="number"  class="flds"  id="bonus" placeholder="Enter Bonus here"><hr>
+        <button class="btn" onclick="add()">Add</button>
+        <button  class="btn" onclick="save()">Save</button></div><hr>
+
+        <table border="4" align="center" id="table" cellpadding="4" cellspacing="2">
+            <thead>
+                <tr>
+                    <th>S.No.</th>
+                    <th>Emp ID</th>
+                    <th>Name</th>
+                    <th>Designation</th>
+                    <th>Salary</th>
+                    <th>Commission</th>
+                    <th>Bonus</th>
+                    <th>Total</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </body>
+</html>
